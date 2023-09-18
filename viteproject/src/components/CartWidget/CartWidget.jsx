@@ -1,10 +1,12 @@
 import {BsFillCartFill} from 'react-icons/bs';
+import {Badge} from '@mui/material';
+
 
 const CartWidget =() => {
     return (
-    <div>
-        <BsFillCartFill/>
-    </div>
+    <Badge badgeContent={1} color="primary">
+        <BsFillCartFill size={25}/>
+    </Badge>
 )
 }
 
